@@ -1,0 +1,454 @@
+/* Main */
+
+body {
+    font-style: italic;
+    text-align: center;
+    background-color: #001233 !important;
+    color: #fff !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.topnav {
+    background-color: #3335d4;
+    color: #fff;
+}
+
+/* text styles */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+    color: white;
+}
+
+td, tr, h6 {
+    color: #fff ;
+}
+
+/* Gaming */
+
+#title {
+    margin-top: 80px;
+    font-size: 150px;
+    color: slategray;
+}
+
+#drum-title {
+    margin-top: 80px;
+    font-size: 150px;
+    color: slategray;
+}
+
+#title-dice-game {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+/* hr styles */
+
+hr {
+    height: 10px;
+    background-color: aquamarine;
+}
+
+.hr1 {
+    width: 60%;
+}
+
+.hr2 {
+    margin-left: 10px;
+    margin-right: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 30px !important;
+    margin-left: 25px;
+}
+
+h4 {
+    margin-left: 100px;
+    margin-top: 20px !important;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.hr2-1 {
+    margin-left: 500px;
+    margin-right: 10px;
+}
+
+/* image sizes */
+
+img {
+    display: block;
+}
+
+.image {
+    margin-top: -100px;
+    margin-left: 900px;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.minisizedimg {
+    width: 50px;
+}
+
+.smallsizedimg {
+    width: 75px;
+    height: 100px;
+}
+
+.mediumsizedimg {
+    width: 150px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.largesizedimg {
+    width: 300px;
+    height: 400px;
+}
+
+.gigasizedimg {
+    width: 600px;
+    height: 800px;
+}
+
+.longsizedimg {
+    width: 300px;
+    height: auto;
+}
+
+.educationimages {
+    width: 175px;
+    margin-left: 20px;
+}
+
+.centerimages {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table */
+.column {
+    padding: 20px;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: flex !important;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+}
+
+/* Margin */
+
+.content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -200px !important;
+    margin-bottom: 10px;
+}
+
+.bio {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 700px;
+}
+
+.margin1 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* Map */
+#map {
+    height: 200px;
+    /* The height is 200 pixels */
+    width: 200%;
+    /* The width is the width of the web page */
+    margin-left: -65px;
+}
+
+/* Info */
+.infoDrop {
+    display: none;
+}
+
+.infoDrop_show {
+    display: block;
+    line-height: .8em;
+}
+
+button#infoBtn {
+    background-color: transparent;
+    border: none;
+}
+
+button#infoBtn:focus {
+    outline: none;
+}
+
+/* Education */
+.educationDrop {
+    display: none;
+}
+
+.educationDrop_show {
+    display: block;
+    line-height: .8em;
+    height: 150px;
+}
+
+button#educationBtn {
+    background-color: transparent;
+    border: none
+}
+
+button#educationBtn:focus {
+    outline: none
+}
+
+/* DROPDOWN MENU */
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    margin-left: 600px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #001233;
+    margin-top: 8px;
+    min-width: 225px;
+    margin-left: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 
+
+/* Work */
+.workDrop {
+    display: none;
+}
+
+.workDrop_show {
+    display: block;
+    line-height: .8em;
+}
+
+button#workBtn {
+    background-color: transparent;
+    border: none;
+}
+
+button#workBtn:focus {
+    outline: none;
+}
+
+/* Personlige egenskaper */
+.skillsDrop {
+    display: none !important;
+}
+
+.skillsDrop_show {
+    display: block !important;
+    line-height: .8em;
+}
+
+.flex-right {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+button#skillsBtn {
+    background-color: transparent;
+    border: none;
+}
+
+button#skillsBtn:focus {
+    outline: none;
+}
+
+/* Arbeidsegenskaper */
+.characterDrop {
+    display: none;
+}
+
+.characterDrop_show {
+    display: block;
+    line-height: .8em;
+}
+
+button#characterBtn {
+    background-color: transparent;
+    border: none;
+}
+
+button#charaterBtn:focus {
+    outline: none;
+}
+
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+/* DrumKit */
+
+.w {
+    background-image: url("../images/tom1.png");
+}
+
+.a {
+    background-image: url("../images/tom2.png");
+}
+
+.s {
+    background-image: url("../images/tom3.png");
+}
+
+.d {
+    background-image: url("../images/tom4.png");
+}
+
+.j {
+    background-image: url("../images/snare.png");
+}
+
+.k {
+    background-image: url("../images/crash.png");
+}
+
+.l {
+    background-image: url("../images/kick.png");
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 1.58%;
+    background-color: white;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Dice Game */
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    margin-left: 125px;
+    width: 40%;
+}
+
+.grey {
+    background-color: grey;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.line {
+    margin-top: -6px;
+}

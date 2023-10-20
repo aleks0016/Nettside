@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Min nettside</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Link to Font Awesome -->
+  <script src="https://kit.fontawesome.com/d11723fac3.js" crossorigin="anonymous"></script>
+  <!-- Link to Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Logo -->
+  <link rel="icon" href="./img/favicon.ico">
+  <!-- Google Maps -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <script type="module" src="./js/map.js"></script>
+  <!-- Link to google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg topnav">
+    <div style="position: absolute; font-size: 16px">
+      <!-- Display of date and time -->
+      <div class="date"></div>
+      <div class="time"></div>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <h2 style="margin-left: 490px; margin-top: 5px;">Aleksander Holt</h2>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Meny</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Hjem</a>
+            <!-- Utdanning, arbeidserfaring og hobbyer -->
+            <a href="#Ed">Utdanning</a>
+            <a href="#WorkEx">Arbeidserfaring</a>
+            <a href="#Hobbies">Hobbyer</a>
+            <!-- Egenskaper -->
+            <a href="#Qualities">Personlige egenskaper</a>
+            <a href="#Work-Related">Arbeidsrelaterte egenskaper</a>
+            <!-- Spill -->
+            <a href="./html/drumkit.html" target="_blank">Trommespill</a>
+            <a href="./html/dicee.html" target="_blank">Terningkastspill</a>
+            <a href="./html/simon.html" target="_blank">Kongen Befaler</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <br style="margin-top: 10px">
+
+  <!-- Om meg -->
+  <h2 class="bio">Bio:</h2>
+  <p class="bio"> - Jeg er 17 år gammel bosatt på Rolvsøy i Fredrikstad, født den 28 September 2006. <br>
+    - Mine personlige egenskaper vil jeg si er at jeg er omtenksom, nysgjerrig, hardtarbeidende, hyggelig og punktlig. <br>
+    - Mine største interesser inkluderer å høre på musikk, være ute å sykle turer, henge med venner, for det meste er det viktigste for meg bare det å være sosial.<br>
+    - Jeg tenker de fleste folka rundt meg ser på meg som en hyggelig og vennlig ungdom. <br>
+    - For øyeblikket studerer jeg Informasjonsteknologi i andre året på Glemmen VGS. 
+
+  </p>
+    <img class="image" src="img/Aleks.png" alt="La meg introdusere meg selv">
+  </p>
+
+
+  <!-- Innhold -->
+    <h1 class="content">Innhold</h2>
+  <!-- Hjem -->
+    <h4><a href="#">Hjem</a></h4>
+    <h4><a href="#Ed">Utdanning</a></h4>
+  <!-- Arbeidserfaring, hobbyer og interesser -->
+    <h4><a href="#WorkEx">Arbeidserfaring</a></h4>
+    <h4><a href="#Hobbies">Hobbyer og interesser</a></h4>
+  <!-- Egenskaper -->
+    <h4><a href="#Qualities">Personlige egenskaper</a></h4>
+    <h4><a href="#Work-Related">Arbeidsrelaterte egenskaper</a></h4>
+
+  <br>
+
+  <!-- Utdanning -->
+  <span id="Ed" class="spacing"></span>
+  <h1 class="text-center">Utdanning</h1>
+  <hr class="border border-primary border-3 opacity-75 hr1">
+  
+  <br>
+  
+  <table class="table text-center" style="width: 80%; margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>Tidsrom</th>
+        <th>Skole</th>
+        <th>Utdanning</th>
+        <th>Bilde</th>
+      </tr>
+      <!-- Rekustad skole -->
+      <tr>
+        <td>August 2012 - Juni 2019</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/rekustad-skole/" target="_blank">Rekustad Skole</a></td>
+        <td>Barneskole</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/rekustad-skole/" target="_blank">
+            <img class="educationimages" src="./img/Education/Rekustad skole.png" alt="Rekustad skole"></a></td>
+      </tr>
+      <!-- Haugeåsen ungdomsskole -->
+      <tr>
+        <td>August 2019 - Juni 2022</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/haugeasen-uskole/" target="_blank">Haugeåsen Ungdomsskole</a></td>
+        <td>Ungdomsskole</td>
+        <td><a href="https://www.fredrikstad.kommune.no/skoler/haugeasen-uskole/" target="blank">
+            <img class="educationimages" src="./img/Education/Haugeåsen ungdomsskole.png" alt="Haugeåsen ungdomsskole"></a></td>
+      </tr>
+      <!-- Glemmen Videregående Skole -->
+      <!-- Vg1 -->
+      <tr>
+        <td>August 2022 - Juni 2023</td>
+        <td><a href="https://viken.no/glemmen-vgs/" target="_blank">Glemmen Videregående Skole</a></td>
+        <td>Yrkesfaglig utdanning <br> Informasjonsteknologi og Medieproduksjon</td>
+        <td><a href="https://viken.no/glemmen-vgs/" target="_blank">
+            <img class="educationimages" src="./img/Education/Glemmen VGS.png" alt="Glemmen Videregående Skole"></a>
+        </td>
+      </tr>
+      <!-- Vg2 -->
+      <tr>
+        <td>August 2023 - Juni 2024</td>
+        <td><a href="https://viken.no/glemmen-vgs/" target="_blank">Glemmen Videregående Skole</a></td>
+        <td>Yrkesfaglig utdanning <br> Informasjonsteknologi</td>
+        <td><a href="https://viken.no/glemmen-vgs/" target="_blank">
+            <img class="educationimages" src="./img/Education/Glemmen VGS.png" alt="Glemmen Videregående Skole"></a>
+      </td>
+      </tr>
+    </thead>
+  </table>
+
+  <br><br>
+  <!-- Arbeidserfaring -->
+  <span id="WorkEx" class="spacing"></span>
+  <h1 class="text-center">Arbeidserfaring</h1>
+  <hr class="border border-primary border-3 opacity-75 hr1">
+  
+  <br>
+
+  <table class="table text-center center">
+    <thead>
+      <tr>
+        <th>Tidsrom</th>
+        <th>Sted</th>
+        <th>Rolle</th>
+      </tr>
+      <!-- Frivillig ungdomsleder -->
+      <tr>
+        <td>22. oktober 2021-</td>
+        <td>Glemmen menighet</td>
+        <td>Frivillig ungdomsleder</td>
+      </tr>
+      <tr>
+        <td>22. oktober 2021 - 19. februar 2023</td>
+        <td>Rolvsøy menighet</td>
+        <td>Frivillig ungdomsleder</td>
+      </tr>
+      <!-- Avdelingstillitsvalgt-->
+      <tr>
+        <td>27. september 2022 - 16. juni 2023</td>
+        <td>Glemmen Videregående Skole</td>
+        <td>Avdelingstillitsvalgt for <br> Informasjonsteknologi og Medieproduksjon (IM)</td>
+      </tr>
+      <!-- Elevrådsrepresentant -->
+      <tr>
+        <td>5. september 2023 - </td>
+        <td>Glemmen Videregående Skole</td>
+        <td>Elevrådsrepresentant for Informasjonteknologi (IT)</td>
+      </tr>
+      <!-- Utplassering -->
+      <tr>
+        <td>8. september 2023 - </td>
+        <td>Glemmen Videregående Skole</td>
+        <td>Utplasseringstudent på skolens it-avdeling</td>
+      </tr>
+    </thead>
+  </table>
+
+  </p>
+  <h3 style="text-align: center;">Belønninger</h3>
+  <table class="table text-center" style="width: 60%; margin-left: auto; margin-right: auto">
+    <thead>
+      <tr>
+        <th>Hva</th>
+        <th>Sted</th>
+        <th>For?</th>
+        <th>Hva har jeg gjort?</th>
+        <th>Tidsrom</th>
+      </tr>
+      <tr>
+        <td>To gratis kinobilletter + og et gavekort verdt 200 NOK.</td>
+        <td>Glemmen Videregående Skole</td>
+        <td>Viken Fylkeskommune</td>
+        <td>Representerte IT på utdanningsmesse</td>
+        <td>27. og 28. oktober 2022</td>
+      </tr>
+      <tr>
+        <td>Arbeidserfaring</td>
+        <td>Flere steder</td>
+        <td>Meg selv</td>
+        <td>Frivillig ungdomsleder</td>
+        <td>Siden 22. oktober 2021</td>
+      </tr>
+    </thead>
+  </table>
+
+  <br><br>
+
+  <!-- Hobbyer og interesser -->
+  <span id="Hobbies" class="spacing"></span>
+  <h1 class="text-center">Hobbyer and interesser</h1>
+  <hr class="border border-primary border-3 opacity-75 hr1">
+
+  <br>
+
+  <table class="table text-center" style="width: 40%; margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>Plassering</th>
+        <th>Hobby</th>
+        <th>Når startet interessen?</th>
+        <th>Ikon</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Sykling</td>
+        <td>Femte klasse (2016)</td>
+        <td><i class="fas fa-bicycle fa-2xl"></i></td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Gaming</td>
+        <td>Første klasse (2012)</td>
+        <td><i class="fas fa-headset fa-2xl"></i></td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Programmering</td>
+        <td>Åttende klasse (2019)</td>
+        <td><i class="fas fa-code fa-2xl"></i></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+  </table>
+
+  <table class="table text-center" style="width: 40%; margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>Plassering</th>
+        <th>Interesse</th>
+        <th>Når startet interessen?</th>
+        <th>Ikon</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Matematikk</td>
+        <td>Første klasse (2012)</td>
+        <td><i class="fa-solid fa-calculator"></i></td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Samfunnsfag</td>
+        <td>Niende klasse (2020)</td>
+        <td><i class="fa-solid fa-earth-europe"></i></td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Historie</td>
+        <td>Femte klasse (2016)</td>
+        <td><i class="fa-solid fa-clock-rotate-left fa-2xl"></i></td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>Politikk</td>
+        <td>Åttende klasse (2019)</td>
+        <td><i class="fa-solid fa-check-to-slot"></i></td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td>Geografi</td>
+        <td>Femte klasse (2016)</td>
+        <td><i class="fa-solid fa-earth"></i></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+  </table>
+
+    <!-- Personlige egenskaper -->
+    <span id="Qualities" class="spacing"></span>
+    <h2>Personlige egenskaper</h2>
+    <hr class="border border-primary border-3 opacity-75 hr1">
+    <table class="table text-center" style="width: 25%; margin-left: auto; margin-right: auto;">
+      <thead>
+        <tr>
+          <th>Egenskap(er)</th>
+          <th>Ikon</th>
+        </tr>
+        <tr>
+          <td>Inkluderende og nysgjerrig</td>
+          <td><i class="fas fa-person-circle-question"></i></td>
+        </tr>
+        <tr>
+          <td>Omtenksom</td>
+          <td><i class="fas fa-hand-holding-heart"></i></td>
+        </tr>
+        <tr>
+          <td>Punktlig og pliktoppfyllende</td>
+          <td><i class="fas fa-location-dot"></i></td>
+        </tr>
+        <tr>
+          <td>Positiv og hyggelig</td>
+          <td><i class="fas fa-face-smile"></i></td>
+        </tr>
+      </thead>
+    </table>
+  
+    <!-- Egenskaper relatert til arbeid -->
+    <span id="Work-Related" class="spacing"></span>
+    <h2>Arbeidsrelaterte egenskaper</h2>
+    <hr class="border border-primary border-3 opacity-75 hr1">
+
+    <table class="table text-center" style="width: 30%; margin-left: auto; margin-right: auto;">
+      <thead>
+        <tr>
+          <th>Egenskap(er)</th>
+          <th>Icon</th>
+        </tr>
+        <tr>
+          <td>Strukturert</td>
+          <td><i class="fas fa-folder-tree"></i></td>
+        </tr>
+        <tr>
+          <td>Hardtarbeidende</td>
+          <td><i class="fas fa-check-to-slot"></i></td>
+        </tr>
+        <tr>
+          <td>Ansvarlig</td>
+          <td><i class="fas fa-reply"></i></td>
+        </tr>
+        <tr>
+          <td>God på kommunikasjon</td>
+          <td><i class="far fa-message"></i></td>
+        </tr>
+      </thead>
+    </table>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-color text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+
+      <!-- Right -->
+    </section>
+
+
+    <!-- Section: Social media -->
+
+    <div class="row d-inline-flex">
+      <!-- Email -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;" href="mailto:aleksanhol1@gmail.com"
+        role="button"><i class="fas fa-envelope"></i></a>
+      <!-- Phone -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;" href="tel:980-19-602"
+        role="button"><i class="fas fa-phone"></i></a>
+      <!-- Instagram -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;"
+        href="https://www.instagram.com/aleks06ander/?next=%2Faleks06ander%2F" role="button" target="_blank">
+        <i class="fab fa-instagram"></i></a>
+      <!-- Facebook -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d;"
+        href="https://www.facebook.com/alehol06" role="button" target="_blank">
+        <i class="fab fa-facebook"></i></a>
+      <!-- GitHub -->
+      <a class="btn text-white btn-floating m-1" style="background-color: #6c757d" href="https://github.com/sikander06"
+        role="button" target="_blank">
+        <i class="fab fa-github"></i></a>
+    </div>
+
+    
+    <!-- Section: Links  -->
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3" style="margin-right: 60px;"></i>
+            </h6>
+            <p>
+              <a href="https://viken.no/glemmen-vgs/" style="margin-right: 80px;" target="_blank">Glemmen VGS</a>
+            </p>
+            <a href="https://viken.no/glemmen-vgs/" target="_blank"><img class="longsizedimg" style="margin-left: -20%;"
+                src="./img/Education/Glemmen VGS.png" alt="My School"></a>
+          </div>
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <i class="fa-solid fa-location-dot"></i>
+            <!-- Links -->
+            <br><br>
+            <p class="line">Hvor er jeg?</p>
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmfCdyHbqbEycFqO5gKXxzSUcU6SVD6fA&callback=initMap&v=weekly"
+              defer></script>
+          </div>
+          <!-- Grid column -->
+
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <i class="fa-solid fa-address-book"></i>
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 contact">Kontaktinformasjon</h6>
+            <p> <i class="fas fa-home"></i> Gullskåret, 1664 Rolvsøy</p>
+            <p> <i class="fas fa-school"></i> Traraveien, 1605 Fredrikstad</p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:aleksanhol1@gmail.com">aleksanhol1@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-phone"></i>
+              <a href="tel:980-19-602">+47 980 19 602</a>
+            </p>
+
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="./index.html">Aleksander Holt</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Link to Javascript -->
+  <script src="./js/index.js"></script>
+  <script src="./js/simon.js"></script>
+</body>
+
+</html>
